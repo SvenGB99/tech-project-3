@@ -10,11 +10,19 @@ body {
     line-height: 1.5;
 }
 
+.font {
+    color: rgb(123, 125, 128);
+}
 h1,
 h2,
 h3,
 p {
     margin: 0;
+
+}
+
+label {
+    margin-bottom: 30px;
 }
 
 .paper,
@@ -26,6 +34,14 @@ form,
     flex-direction: column;
 }
 
+.f1,
+.f2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* Header */
+
+
 .paper {
     background: rgb(49, 55, 66);
     color: #ffffff;
@@ -35,6 +51,15 @@ form,
 
 }
 
+/* Banner */
+
+.ci {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.34em;
+    font-weight: 600;
+}
+
 .banner {
     text-align: center;
     width: 90%;
@@ -42,9 +67,25 @@ form,
     border-bottom: 5px solid rgb(0, 0, 0);
 }
 
-.banner h2,
+.banner h2{
+    margin: 30px 0 10px;
+}
+
 .banner p {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* body */
+
+.f2 legend {
+    padding: 15px 0 0;
+    font-size: 1.34em;
+    font-weight: 600;
+}
+.title1 h3,
+.f2 h3 {
+    font-size: .96em;
+    padding: 15px 0 5px;
 }
 
 form {
@@ -52,14 +93,34 @@ form {
     width: 90%;
     margin: 4px auto 15px;
 }
+.f1 input,
+select {
+    width: 100%;
+    height: 3em;
+    background: rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+}
+
+.pc {
+    width: 50%;
+}
 
 .f1 {
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+textarea {
+    width: 100%;
+    height: 100px;
+    background:  rgb(223, 223, 223);
+    border: none;
+    border-radius: 5px;
+}
+
 button {
     width: 90%;
-    padding: 25px 0;
+    padding: 10px 0;
     margin: 0 auto;
     background: rgb(43, 202, 176);
     color: #ffffff;
@@ -70,5 +131,4 @@ button {
 
 .end {
     text-align: center;
-    color: rgb(123, 125, 128);
 }

@@ -14,28 +14,28 @@
         
         <div class="banner">
             <h2>Signup for our newsletter</h2>
-            <p>Get the latest news on how your code is doing right in your inbox</p>
+            <p class="font">Get the latest news on how your code is doing right in your inbox</p>
         </div>
 
         
             <form>
                 <fieldset class="f1">
-                    <legend>Contact Information</legend>
+                    <legend class="ci">Contact Information</legend>
 
-                    <label>Full Name</label><br>
+                    <label class="tl font">Full Name</label><br>
                     <input type="text" id="name" name="user_name" required placeholder="Required"><br>
-                    <label>Email Address</label><br>
+                    <label class="tl font">Email Address</label><br>
                     <input type="email" id="email" name="user_email" required placeholder="Required"><br>
-                    <label>Phone Number</label><br>
-                    <input type="tel" id="phone" name="user_phonenumber"><br>
-                    <label>Street Address</label><br>
+                    <label class="tl font">Phone Number</label><br>
+                    <input type="tel font" id="phone" name="user_phonenumber"><br>
+                    <label class="tl font">Street Address</label><br>
                     <input type="text" id="street_address" name="user_address"><br>
-                    <label>City</label><br>
+                    <label class="tl font">City</label><br>
                     <input type="text" id="city" name="user_city"><br>
-                    <label>Province</label><br>
+                    <label class="tl font">Province</label><br>
 
-                    <select id="Province" name="user_province">
-                        <option disabled selected value> -- select an option</option>
+                    <select class="tl font" id="Province" name="user_province">
+                        <option disabled selected value> Chose Province</option>
                         <option value="alberta">Alberta</option>
                         <option value="britishcolumbia">British Columbia</option>
                         <option value="manitoba">Manitoba</option>
@@ -50,32 +50,32 @@
                         <option value="yukon">Yukon</option>                
                     </select><br>
 
-                    <label>Postal Code</label><br>
+                    <label class="tl font">Postal Code</label><br>
                     <input type="text" id="postal_code" name="user_postalcode">
                 </fieldset>
             
                 <fieldset class="f2">
                     <legend>Newsletter</legend>
 
-                    <span>select the newsletters you would like to recive</span><br>
+                    <h3 class="font">select the newsletters you would like to recive</h3><br>
 
-                        <input type="checkbox" id="htmlnews" value="html_news" name="user_html">
-                        <label for="htmlnews" class="light">HTML News</label><br>
+                        <input class="font" type="checkbox" id="htmlnews" value="html_news" name="user_html">
+                        <label class="font" for="htmlnews" class="light">HTML News</label><br>
 
-                        <input type="checkbox" id="css" value="css_news" name="user_css">
-                        <label for="css" class="light">CSS News</label><br>
+                        <input class="font" type="checkbox" id="css" value="css_news" name="user_css">
+                        <label class="font" for="css" class="light">CSS News</label><br>
 
-                        <input type="checkbox" id="java" value="java_script" name="user_java">
-                        <label for="java" class="light">Javascript News</label>
+                        <input class="font" type="checkbox" id="java" value="java_script" name="user_java">
+                        <label class="font" for="java" class="light">Javascript News</label>
                 
                     <div class="title1">
-                        <h2>Newsletter Format</h2>
-                    </div>
-                        <input type="radio" id="html_text" value="html_text" name="user_mail_type"><label for="html_text">HTML</label><br>
+                        <h3 class="font">Newsletter Format</h3>
+                    </div >
+                        <input type="radio" id="html_text" value="html_text" name="user_mail_type"><label class="font" for="html_text">HTML</label><br>
 
-                        <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label for="plain_text">Plain Text</label><br>
+                        <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label class="font" for="plain_text">Plain Text</label><br>
 
-                    <p>Other topics you'd like to hear about</p>
+                    <p class="font">Other topics you'd like to hear about</p>
                         <textarea id="user_input" name="user_input"></textarea>
                       
                 </fieldset>
@@ -87,7 +87,7 @@
         
 
             <footer class="end">
-                <h4>Copyright the Code Review</h4>
+                <h4 class="font">Copyright the Code Review</h4>
             </footer>
         
         

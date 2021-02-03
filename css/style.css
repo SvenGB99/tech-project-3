@@ -2,6 +2,73 @@
     box-sizing: border-box;
 }
 
-legend {
+fieldset { 
+    border: none;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.paper,
+.banner,
+form,
+.signup,
+.end {
+    display: flex;
+    flex-direction: column;
+}
+
+.paper {
+    background: rgb(49, 55, 66);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.banner {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.banner h2,
+.banner p {
+    margin-bottom: 15px;
+}
+
+form {
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    margin: 4px auto 15px;
+}
+
+.f1 {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+button {
+    width: 90%;
+    padding: 25px 0;
+    margin: 0 auto;
+    background: rgb(43, 202, 176);
+    color: #ffffff;
+    font-size: 2em;
+    border-radius: 5px;
     
+}
+
+.end {
+    text-align: center;
+    color: rgb(123, 125, 128);
 }

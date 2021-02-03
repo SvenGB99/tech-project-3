@@ -8,80 +8,89 @@
             <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <header class="paper">
-        <h1>The Code Review</h1>
-    </header>
-    
-    <div class="banner">
-        <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on how your code is doing right in your inbox</p>
-    </div>
-
-    <div class="survay">
-        <form>
-            <fieldset>
-                <legend>Contact Information</legend>
-
-                <label>Full Name</label><br>
-                <input type="text" id="name" name="user_name" required placeholder="Required"><br>
-                <label>Email Address</label><br>
-                <input type="text" id="email" name="user_email" required placeholder="Required"><br>
-                <label>Phone Number</label><br>
-                <input type="text" id="phone" name="user_phonenumber"><br>
-                <label>Street Address</label><br>
-                <input type="text" id="street_address" name="user_address"><br>
-                <label>City</label><br>
-                <input type="text" id="city" name="user_city"><br>
-                <label>Province</label><br>
-
-                <select id="Province" name="user_province">
-                    <option disabled selected value> -- select an option</option>
-                    <option value="alberta">Alberta</option>
-                    <option value="britishcolumbia">British Columbia</option>
-                    <option value="manitoba">Manitoba</option>
-                    <option value="newbrunswik">New Brunswik</option>
-                    <option value="novascotia">Nova Scotia</option>
-                    <option value="northwestterritory">North West Territory</option>
-                    <option value="nunavut">Nunavut</option>
-                    <option value="ontario">Ontario</option>
-                    <option value="princeedwardisland">Prince Edward Island</option>
-                    <option value="quibec">Quibec</option>
-                    <option value="saskatchewan">Saskatchewan</option>
-                    <option value="yukon">Yukon</option>                
-                </select><br>
-
-                <label>Postal Code</label><br>
-                <input type="text" id="postal_code" name="user_postalcode">
-            </fieldset>
+        <header class="paper">
+            <h1>THE CODE REVIEW</h1>
+        </header>
         
-            <fieldset>
-                <legend>Newsletter</legend>
-                
-                <span>select the newsletters you would like to recive</span><br>
-            <input type="radio" id="htmlnews" value="html_news" name="user_html"><label for="htmlnews" class="light">HTML News</label><br>
-            <input type="radio" id="css" value="css_news" name="user_css"><label for="css" class="light">CSS News</label><br>
-            <input type="radio" id="java" value="java_script" name="user_java"><label for="java" class="light">Javascript News</label>
-            <div class="title1">
-            <h2>Newsletter Format</h2>
-            </div>
-            <input type="radio" id="html" value="html_text" name="user_html_text"><label for="html" class="light">HTML</label><br>
-            <input type="radio" id="plain" value="plin_text" name="user_plain"><label for="plain" class="light">Plain Text</label>
+        <div class="banner">
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </div>
 
-            <h2>Other topics you'd like to hear about</h2>
-            <input type="text" id="topics" name="user_topics">
+        
+            <form>
+                <fieldset class="f1">
+                    <legend>Contact Information</legend>
+
+                    <label>Full Name</label><br>
+                    <input type="text" id="name" name="user_name" required placeholder="Required"><br>
+                    <label>Email Address</label><br>
+                    <input type="email" id="email" name="user_email" required placeholder="Required"><br>
+                    <label>Phone Number</label><br>
+                    <input type="tel" id="phone" name="user_phonenumber"><br>
+                    <label>Street Address</label><br>
+                    <input type="text" id="street_address" name="user_address"><br>
+                    <label>City</label><br>
+                    <input type="text" id="city" name="user_city"><br>
+                    <label>Province</label><br>
+
+                    <select id="Province" name="user_province">
+                        <option disabled selected value> -- select an option</option>
+                        <option value="alberta">Alberta</option>
+                        <option value="britishcolumbia">British Columbia</option>
+                        <option value="manitoba">Manitoba</option>
+                        <option value="newbrunswik">New Brunswik</option>
+                        <option value="novascotia">Nova Scotia</option>
+                        <option value="northwestterritory">North West Territory</option>
+                        <option value="nunavut">Nunavut</option>
+                        <option value="ontario">Ontario</option>
+                        <option value="princeedwardisland">Prince Edward Island</option>
+                        <option value="quibec">Quibec</option>
+                        <option value="saskatchewan">Saskatchewan</option>
+                        <option value="yukon">Yukon</option>                
+                    </select><br>
+
+                    <label>Postal Code</label><br>
+                    <input type="text" id="postal_code" name="user_postalcode">
+                </fieldset>
             
-    
-            </fieldset>
-        </form>   
-           
-        <button type="submit" >Sign Up</button>
-    </div>
+                <fieldset class="f2">
+                    <legend>Newsletter</legend>
 
-        <footer class="end">
-            <h4>Copyright the Code Review</h4>
-        </footer>
-    
-    
+                    <span>select the newsletters you would like to recive</span><br>
+
+                        <input type="checkbox" id="htmlnews" value="html_news" name="user_html">
+                        <label for="htmlnews" class="light">HTML News</label><br>
+
+                        <input type="checkbox" id="css" value="css_news" name="user_css">
+                        <label for="css" class="light">CSS News</label><br>
+
+                        <input type="checkbox" id="java" value="java_script" name="user_java">
+                        <label for="java" class="light">Javascript News</label>
+                
+                    <div class="title1">
+                        <h2>Newsletter Format</h2>
+                    </div>
+                        <input type="radio" id="html_text" value="html_text" name="user_mail_type"><label for="html_text">HTML</label><br>
+
+                        <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label for="plain_text">Plain Text</label><br>
+
+                    <p>Other topics you'd like to hear about</p>
+                        <textarea id="user_input" name="user_input"></textarea>
+                      
+                </fieldset>
+            </form>   
+            
+            <div class="signup">
+                <button type="submit">Sign Up</button>
+            </div>
+        
+
+            <footer class="end">
+                <h4>Copyright the Code Review</h4>
+            </footer>
+        
+        
     </body>
 
 </html>

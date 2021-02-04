@@ -22,19 +22,19 @@
                 <fieldset class="f1">
                     <legend class="ci">Contact Information</legend>
 
-                    <label class="tl font">Full Name</label><br>
+                    <label class="font">Full Name</label>
                     <input type="text" id="name" name="user_name" required placeholder="Required"><br>
-                    <label class="tl font">Email Address</label><br>
+                    <label class="font">Email Address</label>
                     <input type="email" id="email" name="user_email" required placeholder="Required"><br>
-                    <label class="tl font">Phone Number</label><br>
-                    <input type="tel" id="phone" name="user_phonenumber"><br>
-                    <label class="tl font">Street Address</label><br>
-                    <input type="text" id="street_address" name="user_address"><br>
-                    <label class="tl font">City</label><br>
-                    <input type="text" id="city" name="user_city"><br>
-                    <label class="tl font">Province</label><br>
-
-                    <select class="tl font" id="Province" name="user_province">
+                    <label class="font">Phone Number</label>
+                    <input type="tel" id="phone" name="user_phonenumber" placeholder="(123) 123-4567"><br>
+                    <label class="font">Street Address</label>
+                    <input type="text" id="street_address" name="user_address" placeholder="your address here"><br>
+                    <label class="font">City</label>
+                    <input type="text" id="city" name="user_city" placeholder="pick a place"><br>
+                    
+                    <label class="font">Province</label>
+                    <select class="font" id="Province" name="user_province">
                         <option disabled selected value> Chose Province</option>
                         <option value="alberta">Alberta</option>
                         <option value="britishcolumbia">British Columbia</option>
@@ -50,8 +50,8 @@
                         <option value="yukon">Yukon</option>                
                     </select><br>
 
-                    <label class="tl font">Postal Code</label><br>
-                    <input type="text" id="postal_code" name="user_postalcode">
+                    <label class="font">Postal Code</label>
+                    <input class="pc" type="text" id="postal_code" name="user_postalcode" placeholder="A1A 1A1">
                 </fieldset>
             
                 <fieldset class="f2">
@@ -60,13 +60,13 @@
                     <h3 class="font">select the newsletters you would like to recive</h3>
 
                         <input class="font" type="checkbox" id="htmlnews" value="html_news" name="user_html">
-                        <label class="font" for="htmlnews" class="light">HTML News</label><br>
+                        <label  for="htmlnews" class="font">HTML News</label><br>
 
                         <input class="font" type="checkbox" id="css" value="css_news" name="user_css">
-                        <label class="font" for="css" class="light">CSS News</label><br>
+                        <label  for="css" class="font">CSS News</label><br>
 
                         <input class="font" type="checkbox" id="java" value="java_script" name="user_java">
-                        <label class="font" for="java" class="light">Javascript News</label>
+                        <label  for="java" class="font" >Javascript News</label>
                 
                     <div class="title1">
                         <h3 class="font">Newsletter Format</h3>
@@ -77,7 +77,7 @@
                         <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label class="font" for="plain_text">Plain Text</label><br>
 
                     <p class="tell font">Other topics you'd like to hear about</p>
-                        <textarea id="user_input" name="user_input"></textarea>
+                        <textarea id="user_input" name="user_input" placeholder="Tell me what you think."></textarea>
                    </div>   
                 </fieldset>
             </form>   

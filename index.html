@@ -27,7 +27,7 @@
                     <label class="tl font">Email Address</label><br>
                     <input type="email" id="email" name="user_email" required placeholder="Required"><br>
                     <label class="tl font">Phone Number</label><br>
-                    <input type="tel font" id="phone" name="user_phonenumber"><br>
+                    <input type="tel" id="phone" name="user_phonenumber"><br>
                     <label class="tl font">Street Address</label><br>
                     <input type="text" id="street_address" name="user_address"><br>
                     <label class="tl font">City</label><br>
@@ -57,7 +57,7 @@
                 <fieldset class="f2">
                     <legend>Newsletter</legend>
 
-                    <h3 class="font">select the newsletters you would like to recive</h3><br>
+                    <h3 class="font">select the newsletters you would like to recive</h3>
 
                         <input class="font" type="checkbox" id="htmlnews" value="html_news" name="user_html">
                         <label class="font" for="htmlnews" class="light">HTML News</label><br>
@@ -70,14 +70,15 @@
                 
                     <div class="title1">
                         <h3 class="font">Newsletter Format</h3>
-                    </div >
+                    </div>
+                    <div class="radiobox">
                         <input type="radio" id="html_text" value="html_text" name="user_mail_type"><label class="font" for="html_text">HTML</label><br>
 
                         <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label class="font" for="plain_text">Plain Text</label><br>
 
-                    <p class="font">Other topics you'd like to hear about</p>
+                    <p class="tell font">Other topics you'd like to hear about</p>
                         <textarea id="user_input" name="user_input"></textarea>
-                      
+                   </div>   
                 </fieldset>
             </form>   
             

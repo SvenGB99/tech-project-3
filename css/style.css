@@ -21,10 +21,6 @@ p {
 
 }
 
-label {
-    margin-bottom: 30px;
-}
-
 .paper,
 .banner,
 form,
@@ -77,37 +73,61 @@ form,
 
 /* body */
 
-.f2 legend {
-    padding: 15px 0 0;
-    font-size: 1.34em;
-    font-weight: 600;
-}
-.title1 h3,
-.f2 h3 {
-    font-size: .96em;
-    padding: 15px 0 5px;
-}
-
 form {
     border-top: 2px solid rgb(0, 0, 0);
     width: 90%;
     margin: 4px auto 15px;
 }
+
+/* Contact */
+
+.f1 {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
 .f1 input,
-select {
+.f1 select {
     width: 100%;
     height: 3em;
     background: rgb(223, 223, 223);
     border: none;
     border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
+
+/* news letter format */
+
+.f2 legend {
+    padding: 15px 0 0;
+    font-size: 1.34em;
+    font-weight: 600;
+}
+
+.f2 input,
+.f2 label,
+.f2 legend {
+    display:inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.title1 h3,
+.f2 h3 {
+    font-size: 1.25em;
+    padding: 15px 0 15px;
+    font-weight: 400;
+}
+
 
 .pc {
     width: 50%;
 }
 
-.f1 {
-    border-bottom: 2px solid rgb(0, 0, 0);
+.tell {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: block;
 }
 
 textarea {

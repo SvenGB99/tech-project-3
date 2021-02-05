@@ -22,18 +22,18 @@
                 <fieldset class="f1">
                     <legend class="ci">Contact Information</legend>
 
-                    <label class="font">Full Name</label>
+                    <label for="name" class="font">Full Name</label>
                     <input type="text" id="name" name="user_name" required placeholder="Required"><br>
-                    <label class="font">Email Address</label>
+                    <label for="email" class="font">Email Address</label>
                     <input type="email" id="email" name="user_email" required placeholder="Required"><br>
-                    <label class="font">Phone Number</label>
+                    <label for="phone" class="font">Phone Number</label>
                     <input type="tel" id="phone" name="user_phonenumber" placeholder="(123) 123-4567"><br>
-                    <label class="font">Street Address</label>
+                    <label for="street_address" class="font">Street Address</label>
                     <input type="text" id="street_address" name="user_address" placeholder="your address here"><br>
-                    <label class="font">City</label>
+                    <label for="city" class="font">City</label>
                     <input type="text" id="city" name="user_city" placeholder="pick a place"><br>
                     
-                    <label class="font">Province</label>
+                    <label for="Province" class="font">Province</label>
                     <select class="font" id="Province" name="user_province">
                         <option disabled selected value> Chose Province</option>
                         <option value="alberta">Alberta</option>
@@ -50,7 +50,7 @@
                         <option value="yukon">Yukon</option>                
                     </select><br>
 
-                    <label class="font">Postal Code</label>
+                    <label for="postal_code" class="font">Postal Code</label>
                     <input class="pc" type="text" id="postal_code" name="user_postalcode" placeholder="A1A 1A1">
                 </fieldset>
             
@@ -76,7 +76,7 @@
 
                         <input type="radio" id="plain_text" value="plin_text" name="user_mail_type"><label class="font" for="plain_text">Plain Text</label><br>
 
-                    <p class="tell font">Other topics you'd like to hear about</p>
+                    <label for="user_input" class="tell font">Other topics you'd like to hear about</label>
                         <textarea id="user_input" name="user_input" placeholder="Tell me what you think."></textarea>
                    </div>   
                 </fieldset>
